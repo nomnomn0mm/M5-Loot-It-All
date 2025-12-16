@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://bcp1vqduh2a7l" path="res://random_item_placer.gd" id="1_udp8l"]
 
 [node name="RandomItemPlacer" type="Node2D"]
+position = Vector2(6, 6)
 script = ExtResource("1_udp8l")
 
 [node name="Timer" type="Timer" parent="."]
